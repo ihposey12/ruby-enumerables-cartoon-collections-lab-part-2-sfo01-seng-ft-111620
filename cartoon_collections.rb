@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.map do |words|
-    if words > 4
+    if words > 
       words
     end
   end
