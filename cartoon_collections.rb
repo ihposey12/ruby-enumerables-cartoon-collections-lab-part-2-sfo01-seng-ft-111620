@@ -19,6 +19,6 @@ end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   array.find do |calls|
-    calls == "Earth!" || calls == "Wind!" || calls == "Fire!" || calls =="Water!" || calls == "Heart!"
+    valid_calls == "Earth!" || valid_calls == "Wind!" || valid_calls == "Fire!" || valid_calls =="Water!" || calls == "Heart!"
   end
 end
