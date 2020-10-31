@@ -11,12 +11,10 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(planeteer_calls)
-  call_length = 0
-  planeteer_calls.map do |words|
-    if words < call_length
+  planeteer_calls.length do |words|
+    if words > 4
       words
     end
-    call_length += 1
   end
 end
 
